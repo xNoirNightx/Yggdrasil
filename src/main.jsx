@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
-import Yggdrasil from './main';
+import Yggdrasil from './Component/Yggdrasil';
 import Asgard from './Component/Asgard';
 import Midgard from './Component/Midgard';
 import Vanaheim from './Component/Vanaheim';

@@ -20,7 +20,7 @@ const Yggdrasil = () => {
     <div style={backgroundStyle}>
       <h1>Welcome to Yggdrasil</h1>
       <p>This is the realm</p>
-      {/* Add content and functionality specific to Yggdrasil here */}
+      {/* Yggdrasil here */}
     </div>
   );
 };

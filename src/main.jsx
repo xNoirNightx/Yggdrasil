@@ -45,8 +45,8 @@ const router = createBrowserRouter([
         element: <Alfheim />,
       },
       {
-        path: '/Svartalfheim',
-        element: <Svartalfheim />,
+        path: '/Nidavellir',
+        element: <Nidavellir />,
       },
       {
         path: '/Niflheim',

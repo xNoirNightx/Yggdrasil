@@ -15,7 +15,7 @@ const Header = () => {
         <Link to="/vanaheim" style={linkStyle}>Vanaheim</Link>
         <Link to="/jotunheim" style={linkStyle}>Jotunheim</Link>
         <Link to="/alfheim" style={linkStyle}>Alfheim</Link>
-        <Link to="/svartalfheim" style={linkStyle}>Svartalfheim</Link>
+        <Link to="/Nidavellir" style={linkStyle}>Nidavellir</Link>
         <Link to="/niflheim" style={linkStyle}>Niflheim</Link>
         <Link to="/muspelheim" style={linkStyle}>Muspelheim</Link>
         <Link to="/helheim" style={linkStyle}>Helheim</Link>

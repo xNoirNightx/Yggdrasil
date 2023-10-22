@@ -17,8 +17,7 @@ const Yggdrasil = () => {
 
   return (
     <div style={containerStyle}>
-      <h1>Welcome to Yggdrasil</h1>
-      <p>This is the realm</p>
+
       {/* Yggdrasil content */}
     </div>
   );

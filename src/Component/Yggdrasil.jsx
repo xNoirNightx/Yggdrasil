@@ -1,12 +1,10 @@
 import React from 'react';
-import backgroundImage from '/public/background.jpg'; 
 
 const Yggdrasil = () => {
-  const backgroundStyle = {
-    backgroundImage: `url("/public/background.jpg")`, 
-    backgroundSize: 'cover',
+  const containerStyle = {
+    backgroundImage: `url(${process.env.PUBLIC_URL}/background.jpg)`,
+    backgroundSize: 'cover', // Adjust to cover the entire container
     backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
@@ -14,13 +12,14 @@ const Yggdrasil = () => {
     justifyContent: 'center',
     color: 'white',
     textAlign: 'center',
+    position: 'relative',
   };
 
   return (
-    <div style={backgroundStyle}>
+    <div style={containerStyle}>
       <h1>Welcome to Yggdrasil</h1>
       <p>This is the realm</p>
-      {/* Yggdrasil here */}
+      {/* Yggdrasil content */}
     </div>
   );
 };

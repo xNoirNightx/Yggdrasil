@@ -1,3 +1,10 @@
+body {
+  background-color: black;
+  color: white; /* Text color for better visibility on a dark background */
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+  padding-bottom: 100px;
+}
+
 .App {
   text-align: center;
 }

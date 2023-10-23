@@ -60,7 +60,7 @@ function Nidavellir() {
         <div style={leftImageStyle} onClick={toggleLeftImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/realms/NidavellirBG.png`}
-            alt="Left Image"
+            alt=""
             style={imageStyle}
           />
           {leftImageTextVisible && (
@@ -99,7 +99,7 @@ function Nidavellir() {
         <div style={rightImageStyle} onClick={toggleRightImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/beings/Dwarves.png`}
-            alt="Right Image"
+            alt=""
             style={imageStyle}
           />
           {rightImageTextVisible && (

@@ -60,7 +60,7 @@ function Helheim() {
         <div style={leftImageStyle} onClick={toggleLeftImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/realms/HelheimBG.png`}
-            alt="Left Image"
+            alt=""
             style={imageStyle}
           />
           {leftImageTextVisible && (
@@ -106,7 +106,7 @@ function Helheim() {
         <div style={rightImageStyle} onClick={toggleRightImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/beings/Hel.png`}
-            alt="Right Image"
+            alt=""
             style={imageStyle}
           />
           {rightImageTextVisible && (

@@ -89,7 +89,7 @@ function Asgard() {
         <div style={leftImageStyle} onClick={toggleLeftImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/realms/AsgardBG.png`}
-            alt="Left Image"
+            alt=""
             style={imageStyle}
           />
           {leftImageTextVisible && (
@@ -129,7 +129,7 @@ function Asgard() {
         <div style={rightImageStyle} onClick={toggleRightImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/beings/Odin.png`}
-            alt="Image 1"
+            alt=""
             style={smallerImageStyle}
             onClick={toggleImage1Text}
           />
@@ -160,7 +160,7 @@ function Asgard() {
           )}
           <img
             src={`${process.env.PUBLIC_URL}/beings/Thor.png`}
-            alt="Image 2"
+            alt=""
             style={smallerImageStyle}
             onClick={toggleImage2Text}
           />
@@ -203,7 +203,7 @@ function Asgard() {
           )}
           <img
             src={`${process.env.PUBLIC_URL}/beings/Loki.png`}
-            alt="Image 3"
+            alt=""
             style={smallerImageStyle}
             onClick={toggleImage3Text}
           />

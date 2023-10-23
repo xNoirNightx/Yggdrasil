@@ -50,7 +50,7 @@ function Midgard() {
         <div style={leftImageStyle} onClick={toggleLeftImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/realms/MidgardBG.png`}
-            alt="Left Image"
+            alt=""
             style={imageStyle}
           />
           {leftImageTextVisible && (

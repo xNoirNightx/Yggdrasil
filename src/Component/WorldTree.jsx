@@ -83,7 +83,7 @@ function WorldTree() {
         <div style={leftImageStyle} onClick={toggleLeftImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/realms/WorldTreeBG.png`}
-            alt="Left Image"
+            alt=""
             style={imageStyle}
           />
           {leftImageTextVisible && (
@@ -121,7 +121,7 @@ function WorldTree() {
         <div style={rightImageStyle} onClick={toggleRightImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/beings/Nidhogg.png`}
-            alt="Image 1"
+            alt=""
             style={smallerImageStyle}
             onClick={toggleImage1Text}
           />
@@ -143,7 +143,7 @@ function WorldTree() {
           )}
           <img
             src={`${process.env.PUBLIC_URL}/beings/Ratatoskr.png`}
-            alt="Image 2"
+            alt=""
             style={smallerImageStyle}
             onClick={toggleImage2Text}
           />

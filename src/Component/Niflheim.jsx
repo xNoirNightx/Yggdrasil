@@ -60,7 +60,7 @@ function Niflheim() {
         <div style={leftImageStyle} onClick={toggleLeftImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/realms/NiflheimBG.png`}
-            alt="Left Image"
+            alt=""
             style={imageStyle}
           />
           {leftImageTextVisible && (
@@ -93,7 +93,7 @@ function Niflheim() {
         <div style={rightImageStyle} onClick={toggleRightImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/beings/ymir.png`}
-            alt="Right Image"
+            alt=""
             style={imageStyle}
           />
           {rightImageTextVisible && (

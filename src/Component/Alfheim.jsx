@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ParticlesBG from './Particles';
+import ParticlesBG from "./Particles";
 
 function Alfheim() {
   const containerStyle = {
@@ -62,9 +62,10 @@ function Alfheim() {
         <div style={leftImageStyle} onClick={toggleLeftImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/realms/AlfheimBG.jpg`}
-            alt="Left Image"
+            alt=""
             style={imageStyle}
           />
+
           {leftImageTextVisible && (
             <p>
               Alfheim is a significant realm and one of the Nine Worlds. It's
@@ -84,7 +85,7 @@ function Alfheim() {
         <div style={rightImageStyle} onClick={toggleRightImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/beings/lightelfs.png`}
-            alt="Right Image"
+            alt=""
             style={imageStyle}
           />
           {rightImageTextVisible && (

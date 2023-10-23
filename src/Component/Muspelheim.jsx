@@ -60,7 +60,7 @@ function Muspelheim() {
         <div style={leftImageStyle} onClick={toggleLeftImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/realms/MuspelheimBG.png`}
-            alt="Left Image"
+            alt=""
             style={imageStyle}
           />
           {leftImageTextVisible && (
@@ -89,7 +89,7 @@ function Muspelheim() {
         <div style={rightImageStyle} onClick={toggleRightImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/beings/Surt.png`}
-            alt="Right Image"
+            alt=""
             style={imageStyle}
           />
           {rightImageTextVisible && (

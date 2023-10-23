@@ -89,7 +89,7 @@ function Vanaheim() {
         <div style={leftImageStyle} onClick={toggleLeftImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/realms/VanaheimBG.png`}
-            alt="Left Image"
+            alt=""
             style={imageStyle}
           />
           {leftImageTextVisible && (
@@ -133,7 +133,7 @@ function Vanaheim() {
         <div style={rightImageStyle} onClick={toggleRightImageText}>
           <img
             src={`${process.env.PUBLIC_URL}/beings/Freyja.png`}
-            alt="Image 1"
+            alt=""
             style={smallerImageStyle}
             onClick={toggleImage1Text}
           />
@@ -174,7 +174,7 @@ function Vanaheim() {
           )}
           <img
             src={`${process.env.PUBLIC_URL}/beings/Freyr.png`}
-            alt="Image 2"
+            alt=""
             style={smallerImageStyle}
             onClick={toggleImage2Text}
           />
@@ -216,7 +216,7 @@ function Vanaheim() {
           )}
           <img
             src={`${process.env.PUBLIC_URL}/beings/Njord.png`}
-            alt="Image 3"
+            alt=""
             style={smallerImageStyle}
             onClick={toggleImage3Text}
           />

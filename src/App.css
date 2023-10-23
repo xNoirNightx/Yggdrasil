@@ -13,26 +13,14 @@
   }
 }
 
+/* Media query for larger screens (laptops) */
 @media (min-width: 1024px) {
   .App {
-    /* Your styles for the .App class on laptops */
+    background-color: black; /* Set the background color to black */
+    /* Add any other styles for the .App class on laptops */
   }
 
-  .App-logo {
-    /* Your styles for the .App-logo class on laptops */
-  }
-
-  .App-header {
-    /* Your styles for the .App-header class on laptops */
-  }
-
-  .App-link {
-    /* Your styles for the .App-link class on laptops */
-  }
-
-  /* Additional styles for other elements at laptop screen sizes */
 }
-
 
 .App-header {
   background-color: #282c34;
@@ -58,7 +46,6 @@
   }
 }
 
-
 @keyframes glow {
   0% {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
@@ -75,8 +62,6 @@ h1 {
   color: white;
   animation: glow 2s infinite; /* 2s duration, infinite loop */
 }
-
-
 
 a {
   text-decoration: none;

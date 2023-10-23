@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Header from './Component/Header';
 import Footer from './Component/Footer';
 import Yggdrasil from './Component/Yggdrasil';

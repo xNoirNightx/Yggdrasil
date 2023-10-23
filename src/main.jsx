@@ -13,6 +13,7 @@ import Svartalfheim from './Component/Svartalfheim';
 import Niflheim from './Component/Niflheim';
 import Muspelheim from './Component/Muspelheim';
 import Helheim from './Component/Helheim';
+import WorldTree from './Component/WorldTree';
 // import Button from './Button';
 
 const router = createBrowserRouter([
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path: '/Helheim',
         element: <Helheim />,
+      },
+      {
+        path: '/WorldTree',
+        element: <WorldTree />,
       },
     ],
   },

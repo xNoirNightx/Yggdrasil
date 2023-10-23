@@ -19,6 +19,7 @@ const Header = () => {
         <Link to="/niflheim" style={linkStyle}>Niflheim</Link>
         <Link to="/muspelheim" style={linkStyle}>Muspelheim</Link>
         <Link to="/helheim" style={linkStyle}>Helheim</Link>
+        <Link to="/worldtree" style={linkStyle}>WorldTree</Link>
       </nav>
     </header>
   );

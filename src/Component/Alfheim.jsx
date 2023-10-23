@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ParticlesBG from './Particles';
 
 function Alfheim() {
   const containerStyle = {
@@ -109,6 +110,7 @@ function Alfheim() {
           )}
         </div>
       </div>
+      <ParticlesBG />
     </div>
   );
 }

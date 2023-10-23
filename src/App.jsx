@@ -12,6 +12,8 @@ import Nidavellir from './Component/Nidavellir'; // Import the Svartalfheim comp
 import Niflheim from './Component/Niflheim'; // Import the Niflheim component
 import Muspelheim from './Component/Muspelheim'; // Import the Muspelheim component
 import Helheim from './Component/Helheim'; // Import the Helheim component
+import WorldTree from './Component/WorldTree';
+import Particles  from './Component/Particles';
 
 function App() {
   return (
@@ -28,8 +30,10 @@ function App() {
         <Route path="/niflheim" element={<Niflheim />} />
         <Route path="/muspelheim" element={<Muspelheim />} />
         <Route path="/helheim" element={<Helheim />} />
+        <Route path="/worldtree" element={<WorldTree />} />
         {/* Add routes for other realms here */}
       </Routes>
+      < Particles />
       <Footer />
     </Router>
   );

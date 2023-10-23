@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ParticlesBG from './Particles';
 
 function Nidavellir() {
   const containerStyle = {
@@ -140,6 +141,7 @@ function Nidavellir() {
           )}
         </div>
       </div>
+      <ParticlesBG />
     </div>
   );
 }

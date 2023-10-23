@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ParticlesBG from './Particles';
 
 function Muspelheim() {
   const containerStyle = {
@@ -115,6 +116,7 @@ function Muspelheim() {
           )}
         </div>
       </div>
+      <ParticlesBG />
     </div>
   );
 }

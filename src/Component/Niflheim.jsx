@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ParticlesBG from './Particles';
 
 function Niflheim() {
   const containerStyle = {
@@ -91,7 +92,7 @@ function Niflheim() {
         </div>
         <div style={rightImageStyle} onClick={toggleRightImageText}>
           <img
-            src={`${process.env.PUBLIC_URL}/beings/lightelfs.png`}
+            src={`${process.env.PUBLIC_URL}/beings/ymir.png`}
             alt="Right Image"
             style={imageStyle}
           />
@@ -134,6 +135,7 @@ function Niflheim() {
           )}
         </div>
       </div>
+      <ParticlesBG />
     </div>
   );
 }

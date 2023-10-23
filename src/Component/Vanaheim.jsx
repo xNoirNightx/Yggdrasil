@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ParticlesBG from './Particles';
 
 function Vanaheim() {
   const containerStyle = {
@@ -262,6 +263,7 @@ function Vanaheim() {
           )}
         </div>
       </div>
+      <ParticlesBG />
     </div>
   );
 }

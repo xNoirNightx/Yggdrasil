@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ParticlesBG from './Particles';
 
 function Asgard() {
   const containerStyle = {
@@ -237,6 +238,7 @@ function Asgard() {
           )}
         </div>
       </div>
+      <ParticlesBG />
     </div>
   );
 }

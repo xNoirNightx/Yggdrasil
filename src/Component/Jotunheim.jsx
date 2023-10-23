@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ParticlesBG from './Particles';
 
 function Jotunheim() {
   const containerStyle = {
@@ -108,6 +109,7 @@ function Jotunheim() {
           )}
         </div>
       </div>
+      <ParticlesBG />
     </div>
   );
 }
